@@ -22,7 +22,7 @@ public class TriangleSurface extends GLSurfaceView {
         TriangleRenderer renderer = new TriangleRenderer();
         setRenderer(renderer);
 
-        // 3. 设置刷新模式-当有新的texture到达时
+        // 3. 设置刷新模式
         setRenderMode(RENDERMODE_WHEN_DIRTY);
     }
 }
